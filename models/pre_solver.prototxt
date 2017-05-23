@@ -1,0 +1,17 @@
+test_iter: 176
+test_interval: 132
+base_lr: 0.01
+display: 16
+max_iter: 3960
+lr_policy: "step"
+gamma: 0.1
+stepsize: 5000
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0001
+stepsize: 1307
+snapshot: 132
+snapshot_prefix: "data/models/softmax/alex_softmax"
+solver_mode: GPU
+net: "data/models/softmax/train_val.prototxt"
+solver_type: SGD

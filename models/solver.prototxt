@@ -1,0 +1,14 @@
+net: "models/train-model-B.prototxt"
+test_iter: 0
+test_interval: 10000
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 1307
+display: 12
+max_iter: 2000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 100
+snapshot_prefix: "data/models/triplet/alexnet_triplet"
+solver_mode: GPU

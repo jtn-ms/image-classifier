@@ -1,0 +1,27 @@
+1.network initialize and forward
+reference:caffe/python/caffe/classifier.py,classfy.py
+2.compare two features
+reference:https:https://github.com/PatienceKai/VGG_Face_Caffe_Model/blob/master/test_main.py
+		https://github.com/RiweiChen/DeepFace/blob/master/FaceRecongnition/deepid/evaluate_lfw.py
+3.mean file problem
+  problem:
+  reference:http://stackoverflow.com/questions/30808735/error-when-using-classify-in-caffe 
+  solution:caffe/python/caffe/io.py Replace
+  if ms != self.inputs[in_][1:]:
+    raise ValueError('Mean shape incompatible with input shape.')
+	->>>>	
+  if ms != self.inputs[in_][1:]:
+    print(self.inputs[in_])
+    in_shape = self.inputs[in_][1:]
+    m_min, m_max = mean.min(), mean.max()
+    normal_mean = (mean - m_min) / (m_max - m_min)
+    mean = resize_image(normal_mean.transpose((1,2,0)),in_shape[1:]).transpose((2,0,1)) * (m_max - m_min) + m_min
+    #raise ValueError('Mean shape incompatible with input shape.')
+4.KeyError problem
+  problem:KeyError: 'fc9'
+  reference:https://github.com/PatienceKai/VGG_Face_Caffe_Model/issues/2
+  solution:delete all layers after 'fc9'
+5.util/blob.py
+  def prep_im_for_blob(im):
+    target_size = 227
+6.

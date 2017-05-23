@@ -1,0 +1,10 @@
+/media/frank/Data/Database/ImageNet/Kaggle/train/c0/img_70675.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c1/img_73581.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c2/img_24023.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c3/img_101200.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c4/img_46670.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c5/img_14774.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c6/img_11843.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c7/img_19932.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c8/img_24378.jpg
+/media/frank/Data/Database/ImageNet/Kaggle/train/c9/img_5341.jpg
