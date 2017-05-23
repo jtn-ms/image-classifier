@@ -1,10 +1,9 @@
-# Triplet
-
-This is the re-implementation of triplet loss function in Google's [FaceNet paper](http://arxiv.org/abs/1503.03832v1).
+# Triplet Loss & Batch triplet loss
+Base:https://github.com/hizhangp/triplet
 
 ## Dataset
 
-[FaceScrub](http://vintage.winklerbros.net/facescrub.html) is used as traning dataset, you should modify `sampledata.py` to fit your dataset.
+[Kaggle farm driver distraction identification DB] is used as traning dataset, you should modify `sampledata.py` to fit your dataset.
 
 ## Setup
 
