@@ -5,7 +5,7 @@ https://www.kaggle.com/c/state-farm-distracted-driver-detection
 
 ## Dataset
 
-[Kaggle farm driver distraction identification DB] is used as traning dataset, you should modify `sampledata.py` to fit your dataset.
+[Kaggle farm driver distraction identification DB]https://www.kaggle.com/c/state-farm-distracted-driver-detection is used as traning dataset, you should modify `sampledata.py` to fit your dataset.
 
 ## Setup
 
