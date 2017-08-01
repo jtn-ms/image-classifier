@@ -1,5 +1,7 @@
-# Triplet Loss & Batch triplet loss
-Base:https://github.com/hizhangp/triplet
+# Triplet Loss & Batch triplet loss & SVM
+Here, I have some experiments in order to make more accurate classifier. Triplet Loss, Batch Triplet, SVM are used for experiments. softmax features + SVM was the best in my result as a record of 91% top1 accuracy.
+The following dataset was used for experiment.
+https://www.kaggle.com/c/state-farm-distracted-driver-detection
 
 ## Dataset
 
@@ -29,3 +31,6 @@ Then build caffe and pycaffe:
 3. Finetune triplet model based on your pre-trained model.
 
 4. Learn to adjust parameters.
+
+## Reference
+This project is based on https://github.com/hizhangp/triplet
