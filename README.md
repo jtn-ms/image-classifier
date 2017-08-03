@@ -31,4 +31,4 @@ Then build caffe and pycaffe:
 4. Learn to adjust parameters.
 
 ## Reference
-This project is based on https://github.com/hizhangp/triplet
+This project is based on [hizhangp's job](https://github.com/hizhangp/triplet)
