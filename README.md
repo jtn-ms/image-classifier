@@ -31,9 +31,11 @@ Then build caffe and pycaffe:
 4. Learn to adjust parameters.
 
 ## Result
-
+softmax
 ![known](https://github.com/gustavkkk/image-classifier/blob/master/A.png)
+triplet loss
 ![known](https://github.com/gustavkkk/image-classifier/blob/master/B.png)
+batch triplet loss
 ![known](https://github.com/gustavkkk/image-classifier/blob/master/C.png)
 
 ## Reference
