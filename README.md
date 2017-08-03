@@ -30,5 +30,9 @@ Then build caffe and pycaffe:
 
 4. Learn to adjust parameters.
 
+## Result
+
+![known](https://github.com/gustavkkk/image-classifier/blob/master/A.png)
+
 ## Reference
 This project is based on [hizhangp's job](https://github.com/hizhangp/triplet)
