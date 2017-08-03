@@ -3,7 +3,7 @@ Here, I have some experiments in order to make more accurate classifier. Triplet
 
 ## Dataset
 
-https://www.kaggle.com/c/state-farm-distracted-driver-detection is used as traning dataset, you should modify `sampledata.py` to fit your dataset.
+[Kaggle's State Farm Distracted Driver Detection](https://www.kaggle.com/c/state-farm-distracted-driver-detection) is used as traning dataset, you should modify `sampledata.py` to fit your dataset.
 
 ## Setup
 
