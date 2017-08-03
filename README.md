@@ -33,6 +33,8 @@ Then build caffe and pycaffe:
 ## Result
 
 ![known](https://github.com/gustavkkk/image-classifier/blob/master/A.png)
+![known](https://github.com/gustavkkk/image-classifier/blob/master/B.png)
+![known](https://github.com/gustavkkk/image-classifier/blob/master/C.png)
 
 ## Reference
 This project is based on [hizhangp's job](https://github.com/hizhangp/triplet)
