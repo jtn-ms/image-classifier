@@ -40,5 +40,7 @@ Then build caffe and pycaffe:
 	batch triplet loss
 ![known](https://github.com/gustavkkk/image-classifier/blob/master/C.png)
 
+	softmax+svm
+![known](https://github.com/gustavkkk/image-classifier/blob/master/svm-softmax.png)
 ## Reference
 This project is based on [hizhangp's job](https://github.com/hizhangp/triplet)
